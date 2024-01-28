@@ -24,7 +24,6 @@ const toRoman = (nmb, logOutput) => {
     }
     const getValues = (num, a, b, c) => {
         const values = ['', `${a}`, `${a}${a}`, `${a}${a}${a}`, `${a}${b}`, `${b}`, `${b}${a}`, `${b}${a}${a}`, `${b}${a}${a}${a}`, `${a}${c}`, `${c}`];
-        // console.log(`returnning: ${values[num]}`);
         return values[num];
     };
     const numStr = num.toString().split('').reverse();
